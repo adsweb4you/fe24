@@ -1,0 +1,11 @@
+1) შევქმნათ შემდეგი ტიპის ცვლადები 
+
+    --string  
+    --number  
+    --boolean 
+    --object  
+    --array 
+    --undefined
+    --null
+    --NaN
+ 

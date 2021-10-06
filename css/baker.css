@@ -1,0 +1,43 @@
+header{
+    background-image: url('https://hdwallpaperim.com/wp-content/uploads/2017/08/25/455463-Germany-Bavaria-winter.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 550px;
+}
+
+header::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.z-over {
+    z-index: 9996;
+    position: relative;
+}
+
+  .nav-link{
+    color: #fff !important;
+}
+
+.arrow{
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 25px;
+    z-index: 999999;
+}
+
+.arrow svg{
+    width: 30px;
+    height: 30px;
+}

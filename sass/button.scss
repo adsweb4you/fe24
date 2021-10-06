@@ -1,0 +1,19 @@
+
+$type:50px;
+
+@mixin btn($color) {
+    outline: none;
+    padding: 7px;
+    margin: 0;
+    background-color: $color;
+} 
+
+button{
+    &.red{
+        @include btn(red)
+    }
+    &.green{
+       @include btn(green)
+    }
+    
+}

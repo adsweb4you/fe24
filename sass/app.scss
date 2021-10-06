@@ -1,0 +1,33 @@
+ @use  'button.scss';
+ 
+ $basecolor:#fff;
+ 
+
+ 
+ .container{
+
+    font-size: 45px;
+
+    .headbox{
+       background: {
+           image: url('../img/Photo.png');
+           color:$basecolor;
+           size:cover;
+           position: center;
+           repeat:no-repeat;
+       };
+
+       &:hover{
+        background-position: left;
+        padding: button.$type;
+       }
+    }
+
+    
+
+  
+
+ }
+ 
+
+ 
